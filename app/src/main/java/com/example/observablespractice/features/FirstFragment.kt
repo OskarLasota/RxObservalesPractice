@@ -1,4 +1,4 @@
-package com.example.observablespractice
+package com.example.observablespractice.features
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.example.observablespractice.R
 import com.example.observablespractice.databinding.FragmentFirstBinding
 
 /**

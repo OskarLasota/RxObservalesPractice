@@ -10,7 +10,11 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
 import com.example.observablespractice.databinding.ActivityMainBinding
+import dagger.hilt.EntryPoint
+import dagger.hilt.android.HiltAndroidApp
 
+
+@EntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
